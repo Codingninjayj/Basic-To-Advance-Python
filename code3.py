@@ -48,15 +48,6 @@ print("This type is e is",type(e))
 4. Sequenced data: list, tuple
 list: A list is an ordered collection of data with elements separated by a comma and enclosed within square brackets. Lists are mutable and can be modified after creation.
 
-Example:
-
-list1 = [8, 2.3, [-4, 5], ["apple", "banana"]]
-print(list1)
-
-Output:
-
-[8, 2.3, [-4, 5], ['apple', 'banana']]
-
 example::
 """
 
