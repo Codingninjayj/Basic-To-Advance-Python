@@ -26,19 +26,7 @@ print(b)
 # 3. Boolean data:
 # Boolean data consists of values True or False.
 
-# 4. Sequenced data: list, tuple
-# list: A list is an ordered collection of data with elements separated by a comma and enclosed within square brackets. Lists are mutable and can be modified after creation.
 
-# Example:
-
-# list1 = [8, 2.3, [-4, 5], ["apple", "banana"]]
-# print(list1)
-
-# Output:
-
-# [8, 2.3, [-4, 5], ['apple', 'banana']]
-
-# example::
 
 a=1
 b="yash"
@@ -56,12 +44,34 @@ print("This type is c is",type(c))
 print("This type is d is",type(d))
 print("This type is e is",type(e))
 
+""""
+4. Sequenced data: list, tuple
+list: A list is an ordered collection of data with elements separated by a comma and enclosed within square brackets. Lists are mutable and can be modified after creation.
+
+Example:
+
+list1 = [8, 2.3, [-4, 5], ["apple", "banana"]]
+print(list1)
+
+Output:
+
+[8, 2.3, [-4, 5], ['apple', 'banana']]
+
+example::
+"""
+
 list1=[8,5,7,[-4,5],["apple","banna"]]
 print(list1)
 
 tuple1=(("parrot","sparrow"),("lion","tiger"))
 print(tuple1)
 
+
+'''
+Mapped data: dict
+dict: A dictionary is an unordered collection of data containing a key:value pair. The key:value pairs are enclosed within curly brackets
+
+'''
 dict1={"name":"Sakshi","age":20,"canvote":True}
 print(dict1)
 
