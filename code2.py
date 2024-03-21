@@ -4,8 +4,6 @@
 # Python Comments
 # A comment is a part of the coding file that the programmer does not want to execute, rather the programmer uses it to either explain a block of code or to avoid the execution of a specific part of code while testing.
 
-
-
 #1. Single-Line Comments:
 # To write a comment just add a ‘#’ at the start of the line.
 #Example:
@@ -60,3 +58,11 @@ print("HEY \'this\' is escape \"sequence\" characters")
 # example::
 print("Hey" ,6,7,sep="-",end="009\n")
 print("Yash")
+
+# Other Parameters of Print Statement
+# object(s): Any object, and as many as you like. Will be converted to string before printed
+# sep='separator': Specify how to separate the objects, if there is more than one. Default is ' '
+# end='end': Specify what to print at the end. Default is '\n' (line feed)
+# file: An object with a write method. Default is sys.stdout
+
+# youtube:https://youtu.be/qxPMmW93eDs?si=8PhmJJMfZBgRQogk
