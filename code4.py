@@ -1,3 +1,7 @@
+# Operators
+# Python has different types of operators for different operations. To create a calculator we require arithmetic operators.
+
+
 n = 15
 m = 7
 ans1 = n+m
@@ -12,3 +16,4 @@ ans5 = n%m
 print("Modulus of",n,"and",m,"is", ans5)
 ans6 = n//m
 print("Floor Division of",n,"and",m,"is", ans6)
+
