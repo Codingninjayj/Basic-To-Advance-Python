@@ -8,6 +8,7 @@
 # To write a comment just add a ‘#’ at the start of the line.
 #Example:
 # hey yash,Please don't remove this line
+
 print("Hey i am a good boy \n and this viewer is also a good boy/girl")
 print("Hello world!!")#Printing hello world
 
@@ -18,14 +19,12 @@ print("Hello world!!")#Printing hello world
 # Example 1: The use of ‘#’.
 #It will execute a block of code if a specified condition is true.
 #If the condition is false then it will execute another block of code.
+
 p = 7
 if (p > 5):
     print("p is greater than 5.")
 else:
     print("p is not greater than 5.")
-
-
-
 
 # Example 2: The use of multiline string (""" """).
 
