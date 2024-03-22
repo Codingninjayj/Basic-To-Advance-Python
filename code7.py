@@ -7,7 +7,7 @@
 a=input("Enter your name:")
 print("my name is ", a)
 
-# But input function returns the value as string. Hence we have to typecast them whenever required to another datatype.
+# But input function returns the value as string. Hence we have to typecast them whenever required to another datatype...
 
 # Example:method 1
 
@@ -18,4 +18,4 @@ print(x+y)
 #method 2:
 x=input("Enter your first number:")
 y=input("Enter your second number:")
-print(int(x)+int(y))
+print(int(x)+int(y)) #you can refer code6.py for typecasting.
