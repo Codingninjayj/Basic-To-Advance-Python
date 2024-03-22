@@ -23,5 +23,5 @@ print(fri[4])
 # Looping through the string
 # We can loop through strings using a for loop like this:
 
-for character in name:
-    print(character)
+for b in name:
+    print(b)
