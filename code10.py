@@ -1,4 +1,5 @@
 #String are immutable
+#you can copy and run this program.
 a="Yash!!!!!!"
 print(len(a))
 
