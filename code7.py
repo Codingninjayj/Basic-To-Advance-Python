@@ -9,7 +9,7 @@ print("my name is ", a)
 
 # But input function returns the value as string. Hence we have to typecast them whenever required to another datatype.
 
-# Example:
+# Example:method 1
 
 x=int(input("Enter your first number:"))
 y=int(input("Enter your second number:"))
