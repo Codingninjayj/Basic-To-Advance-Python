@@ -6,17 +6,18 @@ print("Your age is:",a)
 
 #CONDITIONAL OPERATORS
 #>,<,>=,<=,==,!=
-print(a>18)
-print(a<18)
-print(a>=18)
-print(a<=18)
-print(a==18)
-print(a!=18)
+
+# print(a>18)
+# print(a<18)
+# print(a>=18)
+# print(a<=18)
+# print(a==18)
+# print(a!=18)
 
 if(a>18):
     print("You can drive")
 else:
     print("You can't drive")
 
-
+# Indentation refers to the spaces at the beginning of a code line.To know more about it read:https://www.w3schools.com/python/gloss_python_indentation.asp#:~:text=Indentation%20refers%20to%20the%20spaces,indicate%20a%20block%20of%20code.
 
