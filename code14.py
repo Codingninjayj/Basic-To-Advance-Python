@@ -10,15 +10,15 @@ if(timestamp1<0):
     print("Number is not in time zone")
 elif(timestamp1>0):
     if(timestamp1<12):
-        print("Good Morning")
+        print("Good Morning sir")
     elif(timestamp1==12):
-        print("Good Morning")
+        print("Good Morning sir")
     elif(timestamp1>12):
-        print("Good Evening")
+        print("Good Evening sir")
     elif(timestamp1<=18):
-        print("Good Afternoon")
+        print("Good Afternoon sir")
     elif(timestamp1>18):
-        print("Good Evening")
+        print("Good Evening sir ")
     else:
         print("Good Night")
 else:
