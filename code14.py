@@ -14,7 +14,7 @@ elif(timestamp1>0):
     elif(timestamp1==12):
         print("Good Morning sir")
     elif(timestamp1>12):
-        print("Good Evening sir")
+        print("Good Afternoon sir")
     elif(timestamp1<=18):
         print("Good Afternoon sir")
     elif(timestamp1>18):
