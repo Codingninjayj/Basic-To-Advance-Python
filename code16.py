@@ -22,7 +22,7 @@ for color in Colours:
         print(i)
 
 
-# range():
+# range(): 
 # What if we do not want to iterate over a sequence? What if we want to use for loop for a specific number of times?
 
 # Here, we can use the range() function.
