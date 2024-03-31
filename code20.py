@@ -12,10 +12,10 @@
 # min(), max(), len(), sum(), type(), range(), dict(), list(), tuple(), set(), print(), etc.
 
 #Example1:
-a=2
-b=4
-gmean1=(a*b/(a+b))
-print(gmean1)
+# a=2
+# b=4
+# gmean1=(a*b/(a+b))
+# print(gmean1)
 
 
 # User-defined functions:
@@ -43,8 +43,8 @@ calculategmean(a,b)
 
 # Example:
 
-def name(fname, lname):
-    print("Hello,", fname, lname)
+# def name(fname, lname):
+#     print("Hello,", fname, lname)
 
-name("Sam", "Wilson")
+# name("Sam", "Wilson")
 
