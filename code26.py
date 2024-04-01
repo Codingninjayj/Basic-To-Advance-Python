@@ -1,3 +1,5 @@
+
+# Create a program capable of displaying questions to the user like KBC. Use List data type to store the questions and their correct answers. Display the final amount the person is taking home after playing the game.
 questions=[[
   
 "Which language is used to create fb?","pyhton","French","javascript","php",4],
@@ -25,7 +27,7 @@ levels=[1000,2000,3000,5000,10000,20000,40000,80000,100000,320000]
 i=0
 money=0
 for i in range(0,len(questions)):
-    print(len(questions))
+    # print(len(questions))
     question =questions[i]
     # print(question[0])
     print(f"Question for rs,{levels[i]}")
