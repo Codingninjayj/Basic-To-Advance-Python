@@ -22,7 +22,7 @@ questions=[[
   
 "All keywords in Python are in _________"," Capitalized","lower case","UPPER CASE","None of the mentioned",4]
 ]
-levels=[1000,2000,3000,5000,10000,20000,40000,80000,100000,320000]
+levels=[1000,2000,3000,5000,200000,320000]
 
 i=0
 money=0
@@ -36,11 +36,11 @@ for i in range(0,len(questions)):
     reply=int(input("Enter your choose(Form Option):"))
     if reply==question[-1]:
         print("Correct Answer!! ,you have won ",levels[i])
-        if(i==4):
+        if(i==1):
             money=1000
-        elif(i==9):
+        elif(i==2):
             money=32000
-        elif(i==14):
+        elif(i==6):
             money=100000
     else:
         print("wrong answer!!")
