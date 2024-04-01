@@ -1,26 +1,46 @@
-#create a program of displaying question to user like kbc
-#use list data type to store the question and their correct answer
-#display the final amount the person is taking home after playing the game 
-prize_money=0
-print("WELCOME TO Kaun Banega Crorepati")
-# y=print(input("Are you intrsented in playing the game(Y/N):"))
-# if (y=="yes"):
-questions = [{
-   "question": "What is the capital of India?",
-   "options": ["1. Delhi", "2. Mumbai", "3. Kolkata", "4. Chennai"],
-   "answer": 1
-}]
-for question in questions:
-   print(question["question"])
-   for option in question["options"]:
-      print(option)
+questions=[[
+  
+"Which language is used to create fb?","pyhton","French","javascript","php",4],
 
-user_ans=int(input("Enter your answer(option number):"))
-if(user_ans==question["answer"]):
-   print("Correct Answer!!")
-   prize_money+=1000
+[
+  
+"who created fb?","jeff ","eiston","elon","mark",4],
 
-else:
-   print("wrong answer!!")
-   break 
-print("prize money:",prize_money)
+[
+  
+". Which type of Programming does Python support?","object-oriented programming","structured programming","functional programming"," all of the mentioned",4],
+
+[
+  
+"Is Python case sensitive when dealing with identifiers?","no","yes","machine dependent","none of the mentioned",2],
+[
+  
+"Which of the following is the correct extension of the Python file?","pyhton","French","javascript","php",3],
+[
+  
+"All keywords in Python are in _________"," Capitalized","lower case","UPPER CASE","None of the mentioned",4]
+]
+levels=[1000,2000,3000,5000,10000,20000,40000,80000,100000,320000]
+
+i=0
+money=0
+for i in range(0,len(questions)):
+    print(len(questions))
+    question =questions[i]
+    # print(question[0])
+    print(f"Question for rs,{levels[i]}")
+    print(f"a.{question[1]}             b.{question[2]}")
+    print(f"c.{question[3]}             d.{question[4]}")
+    reply=int(input("Enter your choose(Form Option):"))
+    if reply==question[-1]:
+        print("Correct Answer!! ,you have won ",levels[i])
+        if(i==4):
+            money=1000
+        elif(i==9):
+            money=32000
+        elif(i==14):
+            money=100000
+    else:
+        print("wrong answer!!")
+        break 
+print(f"Your take home money is{money}")
