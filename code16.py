@@ -8,18 +8,18 @@
 # for loops can iterate over a sequence of iterable objects in python. Iterating over a sequence is nothing but iterating over strings, lists, tuples, sets and dictionaries.
 
 #Example:
-name="yash"
-for i in name:
-    print(i)
-    if(i=="h"):
-        print("this is spmthing special")
+# name="yash"
+# for i in name:
+#     print(i)
+#     if(i=="h"):
+#         print("this is spmthing special")
 
-#Example 2:
-Colours =["red","Green","Blue","Yellow"]
-for color in Colours:
-    print(color)
-    for i in color:
-        print(i)
+# #Example 2:
+# Colours =["red","Green","Blue","Yellow"]
+# for color in Colours:
+#     print(color)
+#     for i in color:
+#         print(i)
 
 
 # range(): 
@@ -30,10 +30,10 @@ for color in Colours:
 for i in range(5):
     print(i+1)
 
-#Example 2:
-for k in range(1,9):
-    print(k)
+# #Example 2:
+# for k in range(1,9):
+#     print(k)
 
-#Example 3:
-for k in range(1,9,1):
-    print(k)
+# #Example 3:
+# for k in range(1,9,1):
+#     print(k)
