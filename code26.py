@@ -46,3 +46,4 @@ for i in range(0,len(questions)):
         print("wrong answer!!")
         break 
 print(f"Your take home money is{money}")
+#just copy paste the code and yout will see the output
