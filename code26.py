@@ -29,7 +29,7 @@ money=0
 for i in range(0,len(questions)):
     # print(len(questions))
     question =questions[i]
-    # print(question[0])
+    print(question[0])
     print(f"Question for rs,{levels[i]}")
     print(f"a.{question[1]}             b.{question[2]}")
     print(f"c.{question[3]}             d.{question[4]}")
